@@ -1,7 +1,5 @@
-*.pyc
-*~
-__pycache__
-myvenv
-db.sqlite3
-/static
-.DS_Store
+from django.contrib import admin
+
+from .models import Post
+
+admin.stie.register(Post)
